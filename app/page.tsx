@@ -16,7 +16,7 @@ export default async function HomePage() {
   return (
     <>
       <ThreeItemGrid />
-      <h1 className="text-2xl text-red-500">BUSY LITTLE WEBSTORE</h1>
+      <h1 className="pl-8 text-2xl text-red-500">BUSY LITTLE WEBSTORE</h1>
       <Suspense>
         <Carousel />
         <Suspense>
